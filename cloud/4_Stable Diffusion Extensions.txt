@@ -94,5 +94,10 @@
     - Motion Brush > Brush 1 > Select area > Horizontal and Vertical
     - Generate 4s
 
-13. 
+13. CapCut
+    - https://www.capcut.com/ko-kr/?start_tab=video
+    - 새 동영상 > 업로드 (2 files) > 미디어 드래그
+    - 배경 > 복제 > 드래그
+    - 캐릭터 > 스마트 도구 > 자동삭제
+    - 내보내기 > 다운로드 > 내보내기
 
