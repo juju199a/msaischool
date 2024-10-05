@@ -88,7 +88,7 @@
     - --mixed / 안 바뀜 / 과거 바뀜 / HEAD가 과거 가리킴
     - --hard / 과거 바뀜 / 과거 바뀜 / HEAD가 과거 가리킴
 
-21. get reset --soft 옵션
+21. git reset --soft 옵션
     - git add .
     - git status //스테이징 파일 확인
     - git history
@@ -96,15 +96,16 @@
     - git history //로컬 레포지토리 확인
     - git status //스테이징 확인
 
-22. get reset --mixed 옵션
+22. git reset --mixed 옵션
     - git reset --mixed facd
     - git history //로컬 레포지토리 확인
     - git status //스테이징 확인
 
-23. get reset --hard  옵션
+23. git reset --hard  옵션
     - git reset --hard -33cd
     - git history //로컬 레포지토리 확인
     - git status //스테이징 확인
 
-
+24. 태그달기
+    - git tag [태그이름] [커밋아이디]
 
