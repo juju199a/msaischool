@@ -16,6 +16,6 @@
 5. 현재 상태 보기
     - git status
     - stage: git add로 파일을 staging area에 추가하는 것
-    
+
 
 
