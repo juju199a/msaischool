@@ -43,20 +43,20 @@
     - git clone https://github.com/numpy/numpy.git
     - cd numpy
 
-12. Commit 히스토리
+12. Commit 히스토리 (로컬 레포지토리)
     - git log
     - q 
     - git log --pretty=oneline
 
-13. 어떤 파일이 어떻게 변했는지 알고 싶을 때
+13. 어떤 파일이 어떻게 변했는지 알고 싶을 때 (로컬 레포지토리)
     - git show 4af1
 
 14. git add .
     - git commit
     - i > Add One function > :wq!
     - git log
-
-15. 커밋 메시지 수정
+    
+15. 커밋 메시지 수정 (로컬 레포지토리)
     - git log --pretty=oneline
     - 소스 수정 > 저장
     - git add .
@@ -64,5 +64,47 @@
     - i > Add multiply function
     - git log --pretty=oneline
     - git push
-    
+
+16. Aliasing
+    - git config alias.history "log --pretty=oneline"
+    - git history
+
+17. 비교
+    - git history
+    - git diff facd eea5
+
+18. 최근에 한 것을 가리킴
+    - git history
+    - **HEAD: 보통 가장 최근에 한 커밋을 가리킴**
+
+19. **HEAD가 과거의 커밋을 가리키게 할 수 있다!**
+    - git reset --hard eea5
+    - git history
+    - working directory의 내용도 과거 커밋의 모습으로 돌아가게 한다!
+
+20. **--hard는 다 사라짐**
+    - option / working directory / staging area / local repository
+    - --soft / 안 바뀜 / 안 바뀜 / HEAD가 과거 가리킴
+    - --mixed / 안 바뀜 / 과거 바뀜 / HEAD가 과거 가리킴
+    - --hard / 과거 바뀜 / 과거 바뀜 / HEAD가 과거 가리킴
+
+21. get reset --soft 옵션
+    - git add .
+    - git status //스테이징 파일 확인
+    - git history
+    - git reset --soft 4af1
+    - git history //로컬 레포지토리 확인
+    - git status //스테이징 확인
+
+22. get reset --mixed 옵션
+    - git reset --mixed facd
+    - git history //로컬 레포지토리 확인
+    - git status //스테이징 확인
+
+23. get reset --hard  옵션
+    - git reset --hard -33cd
+    - git history //로컬 레포지토리 확인
+    - git status //스테이징 확인
+
+
 
