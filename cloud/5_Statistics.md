@@ -207,10 +207,13 @@
     - r=-1: 완전한 음의 상관관계
     - r=0: 상관 관계 없음
 
-58. 
+58. 스피어만 상관 계수 (Spearman's Rank Correlation Coefficient)
+    - 양의 상관관계: 시험 성적 높으면 달리기를 잘한다.
+    - 음의 상관관계: 시험 성적이 높으면 달리기를 못한다.
+
+59. 켄달의 타우 (Kendall's Tau, Kendall's Rank Correlation Coefficient)
+    - 직무 수행 순위와 승진 순위 관계
+    - 영화 배우 A 출연, 영화 흥행
 
 
-
-
-
-
+> EOF
